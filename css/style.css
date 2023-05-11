@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, p, ul, li, span{
+	color: #1C2755;
+	font-family: sans-serif;
+}
+
+/*header section*/
+
+header{
+	padding: 10px 0px;
+	border-bottom: 3px solid #eeeeee;
+}
+
+.header-container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 7%;
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 60%;
+	float: right;
+	padding: 27px 0px;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	padding: 0px 20px;
+	display: block;
+	color: #102757;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #2B80FA;
+	transition: 0.5s linear;
+}
+
+
+/*banner section*/
+
+.banner{
+	padding: 60px 0;
+}
+
+.banner-container{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.banner-container h1{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.banner-container span h1{
+	color: #0081ff;
+}
+
+.banner-container p{
+	padding: 0px 200px;
+	line-height: 30px;
+}
+
+.banner-img{
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+
+
+/*project section*/
+
+.project{
+	padding: 60px 0;
+}
+
+.project-container{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	border: 1px solid blue;
+}
+
+.project-left{
+	width: 45%;
+	text-align: right;
+	float: left;
+	border: 1px solid red;
+}
+
+.project-left span h1{
+	color: #f65d6c;
+	font-size: 40px;
+	padding-left: 0;
+}
+
+.project-right{
+	width: 45%;
+	border: 1px solid red;
+	float: right;
+}
